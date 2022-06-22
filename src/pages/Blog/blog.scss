@@ -1,0 +1,131 @@
+.blog__Post {
+    flex: 9;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .blog__Post__Link {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  
+  .blog__Post__Wrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog__Post__Img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .blog__Post__Title {
+    text-align: center;
+    margin: 20px;
+    font-family: "Lora", serif;
+    font-size: 25px;
+  }
+  
+  .blog__Post__TitleInput {
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .blog__Post__TitleInput:focus {
+    outline: none;
+  }
+  
+  .blog__Post__Edit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .blog__Post__Icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .blog__Post__Icon:first-child {
+    color: teal;
+  }
+  
+  .blog__Post__Icon:last-child {
+    color: tomato;
+  }
+  
+  .blog__Post__Info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: "Varela Round", sans-serif;
+    color: #b39656;
+  }
+  
+  .blog__Post__Desc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .blog__Post__Desc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .blog__Post__DescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .blog__Post__DescInput:focus {
+    outline: none;
+  }
+  .blog__Post__Button {
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+
+  .blog__category {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .blogUsername__author {
+    color: gray;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .blog__date {
+    font-size: 1rem;
+    color: #a9a9a9;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }

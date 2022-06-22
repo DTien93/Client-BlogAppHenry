@@ -1,0 +1,50 @@
+.container__login {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://c0.wallpaperflare.com/preview/728/375/731/aerial-analog-background-blog.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 300;
+    text-align:  center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    flex: 1;
+    min-width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.form__submit {
+    width: 100%;
+    border: none;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.form__link {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}

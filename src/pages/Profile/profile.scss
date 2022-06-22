@@ -1,0 +1,83 @@
+.profile {
+    display: flex;
+    border: 1px solid #4444;
+}
+
+.profile__wrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.profile__Title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__updateTitle {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #0080ff;
+}
+
+.profile__deleteTitle {
+    color: #f02206;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.profile__Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__PP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.profile__PP > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.profilePP__Icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile__Form > label {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.profile__Form > input {
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.profile__submit {
+    width: 200px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
